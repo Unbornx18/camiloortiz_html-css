@@ -15,6 +15,18 @@
   background-color: #1e2b24;
 }
 
+.hero-oferta {
+  position: relative;
+  min-height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--color-white);
+  overflow: hidden;
+  background-color: #2b211e;
+}
+
 .hero-bg {
   position: absolute;
   inset: 0;
@@ -52,6 +64,27 @@
   border: none;
   font-size: 0.95rem;
 }
+
+/* BOTON OFERTA RELAMPAGO */
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-lg);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.badge-stock {
+  background-color: var(--color-primary-dark);
+}
+
+.badge-out {
+  background-color: var(--color-error);
+}
+
 
 .btn-primary {
   background-color: var(--color-primary);
